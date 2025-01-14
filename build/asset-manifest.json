@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/mano-react-projektas/static/css/main.bcab7676.css",
+    "main.js": "/mano-react-projektas/static/js/main.3b35f430.js",
+    "static/js/488.273886f3.chunk.js": "/mano-react-projektas/static/js/488.273886f3.chunk.js",
+    "static/media/as.svg": "/mano-react-projektas/static/media/as.ad5899eeb5c1a259e11f9ce146f8d59c.svg",
+    "static/media/RiK2.svg": "/mano-react-projektas/static/media/RiK2.826d91a265ae6a156960a10039069e3f.svg",
+    "static/media/RiK1.svg": "/mano-react-projektas/static/media/RiK1.f8f2c318ae53965b3dabcffb735ca0e0.svg",
+    "static/media/logo-light.svg": "/mano-react-projektas/static/media/logo-light.b16abaa07f2e7eb08f2575191b4723be.svg",
+    "index.html": "/mano-react-projektas/index.html",
+    "main.bcab7676.css.map": "/mano-react-projektas/static/css/main.bcab7676.css.map",
+    "main.3b35f430.js.map": "/mano-react-projektas/static/js/main.3b35f430.js.map",
+    "488.273886f3.chunk.js.map": "/mano-react-projektas/static/js/488.273886f3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bcab7676.css",
+    "static/js/main.3b35f430.js"
+  ]
+}
