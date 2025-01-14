@@ -1,0 +1,63 @@
+/* src/components/Footer.css */
+.footer {
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 80px;
+}
+    hr {
+        
+            position: absolute;
+            width: 50%;
+            left: 26%;
+        }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-logo img {
+    height: 100px; /* Pritaikyti logotipo dydį */
+    width: auto;
+  }
+  
+  .footer-social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    width: 50%;
+    height: 60px;
+    align-items: center;
+    align-items: center;
+    margin-top: 10%;
+  }
+  
+  .footer-social-icons svg {
+    color: rgb(13, 12, 12);
+    font-size: 1.5rem; /* Galite pakeisti dydį */
+    transition: color 0.3s;
+    height: 100%;
+  }
+  
+  .footer p {
+    text-align: center;
+    font-size: 12px;
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 10%;
+}
+.footer-social-icons svg path {
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.footer-social-icons svg path:hover {
+  color: #211233;
+  cursor: pointer;
+}

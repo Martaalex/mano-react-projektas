@@ -1,0 +1,62 @@
+/* ApieMane.css */
+.apie-mane{
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: -webkit-fill-available;
+  overflow-y: auto;
+  text-align: left;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.apie-mane h1,
+.apie-mane h2 {
+  color: #ffffff;
+  margin-bottom: 1.5rem;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 34px; /* Pagal pateiktą dydį */
+  line-height: 75.14px; /* Pritaikytas linijos aukštis */
+  letter-spacing: 0.35em; /* 35% raidžių tarpai */
+}
+
+.apie-mane p {
+  text-align: justify;
+  line-height: 2rem; /* Šį galite koreguoti, jei reikia tikslumo */
+  font-size: 20px; /* Pagal pateiktą dydį */
+  font-family: "Major Mono Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.apie-mane .skills-section {
+  margin-top: 2rem;
+  display: flex
+;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: space-between;
+  align-content: center;
+  position: relative;
+  align-self: center;
+  width: auto;
+  height: auto;
+  left: 0;
+  right: 0;
+}
+.remas {
+  padding: 60px;
+  font-family: "Major Mono Display", serif;
+  font-weight: 400;
+  font-size: 48px; /* Pagal pateiktą dydį */
+  line-height: 48px; /* Pagal pateiktą linijos aukštį */
+}
+.skills-section h2{
+  text-align: center;
+}

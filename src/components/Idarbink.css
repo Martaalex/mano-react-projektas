@@ -1,0 +1,117 @@
+.contact-form-container {
+  display: flex
+;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  top: 30%;
+  right: 0;
+  left: 0;
+}
+  .contact-form h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .contact-form label {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .contact-form button {
+    padding: 0.5rem 1rem;
+    background-color: #ff8ed9;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    border: none;
+    align-self: center;
+}
+  
+  .contact-form button:hover {
+    color: #29002f;
+    background-color: #f42bb1;
+  }
+  
+  /* Ačiū pranešimo stilius */
+.aciu .aciu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  border: 10px solid red;
+}
+  
+  
+  .raides {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .r {
+    width: 100%;
+    height: 100%;
+    color: white;
+    font-size: 10rem;
+    display: flex;
+    justify-content: flex-end;
+    animation: bounce 1s infinite;
+  }
+  
+  .r:nth-child(1) {
+    animation-delay: 0s;
+  }
+  
+  .r:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  
+  .r:nth-child(3) {
+    animation-delay: 0.4s;
+  }
+  
+  .r:nth-child(4) {
+    animation-delay: 0.6s;
+  }
+  
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10%); /* Kiek pakyla į viršų */
+    }
+  }
+  
